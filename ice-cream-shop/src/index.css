@@ -1,0 +1,39 @@
+/* Minimal custom CSS - Most styling done with Bootstrap classes */
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Custom colors as CSS variables */
+:root {
+  --bs-primary: #dc143c;
+  --bs-danger: #dc143c;
+  --primary-red: #dc143c;
+  --light-pink: #f8e8eb;
+  --light-blue: #aed4e6;
+}
+
+/* Script font for section labels */
+.script-font {
+  font-family: 'Brush Script MT', cursive;
+  font-style: italic;
+  color: var(--primary-red);
+  font-size: 1.5rem;
+}
+
+/* Custom button styles */
+.btn-custom-red {
+  background-color: var(--primary-red);
+  border-color: var(--primary-red);
+  color: white;
+}
+
+.btn-custom-red:hover {
+  background-color: #b8112e;
+  border-color: #b8112e;
+  color: white;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 15px rgba(220, 20, 60, 0.3);
+}
