@@ -32,7 +32,7 @@ const Home = () => {
             Explore Menu
           </Link>
 
-          <Link to="/book" className="btn btn-outline-light">
+          <Link to="/" className="btn btn-outline-light">
             Reserve a Table
           </Link>
 
